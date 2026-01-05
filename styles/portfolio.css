@@ -32,18 +32,24 @@
 
 /* main styles */
 header {
-  background-color: #fff8f3;
+  /* background-color: #fff8f3; */
   padding-top: 50px;
+  background: url(../images/developer.png), url(../images/header_bg.png), #fff8f3;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
 nav {
-    width: 71%;    /* total screen width devided by nav width*/
-    max-width: 100%;  /* at this tim we can't see the change, if we use border then we can see the change */
-    /* border: 1px solid red; */
-    margin: 0 auto;  /* to center the nav */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 71%;
+  /* total screen width devided by nav width*/
+  max-width: 100%;
+  /* at this tim we can't see the change, if we use border then we can see the change */
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  /* to center the nav */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav .menu {
@@ -59,4 +65,46 @@ nav .menu a {
   font-size: 20px;
   font-weight: 600;
   color: #474747;
+}
+
+#banner {
+  /* border: 1px solid blue; */
+  margin: 47px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .banner-content {
+  max-width: 585px;
+}
+
+#banner .banner-content h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+#banner .banner-content p {
+  font-size: 20px;
+  /* font-weight: 400; */
+  color: #474747;
+  margin-bottom: 30px;
+  max-width: 500px;
+  /* line-height: 1.5; */
+  line-height: 30px;
+}
+
+#banner .banner-image img {
+  width: 580px;
+  /* height: auto; */
+  vertical-align: middle;
 }
