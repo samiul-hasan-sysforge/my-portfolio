@@ -30,6 +30,25 @@
   cursor: pointer;
 }
 
+.section-hedding {
+  max-width: 827px;
+  text-align: center;
+}
+
+.section-hedding h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.section-hedding p {
+  font-size: 20px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
 /* main styles */
 header {
   /* background-color: #fff8f3; */
@@ -107,4 +126,35 @@ nav .menu a {
   width: 580px;
   /* height: auto; */
   vertical-align: middle;
+}
+
+
+#about {
+  padding: 130px 0;
+}
+
+#about .about-container {
+  width: 71%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 131px 156px;
+}
+
+#about .about-container .about-info {
+  display: flex;
+  /* gap: 100px; */
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.about-info .info-card p {
+  font-size: 20px;
+  color: #757575;
+  line-height: 30px;
+}
+
+.about-info .info-card h4 {
+  font-size: 20px;
 }
